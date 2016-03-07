@@ -13,7 +13,7 @@
 
 (defn home-page []
   [:div [:h2 "Welcome to run-zones"]
-   [:button.btn.btn-info {:on-click (fn [e] (println "Jamica!"))} "Button!"]
+   [:button.btn.btn-success {:on-click (fn [e] (println "Jamica!"))} "Button!"]
    [:div [:a {:href "/about"} "go to about page"]]])
 
 (defn about-page []
